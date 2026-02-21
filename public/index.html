@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar & Wendy - Nos Casamos</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Playfair Display (Serif) and Great Vibes (Calligraphy) -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">O & W</a>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#detalles">Detalles</a></li>
+                <li><a href="#regalos">Regalos</a></li>
+                <li><a href="#rsvp" class="nav-btn">RSVP</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <span class="subtitle">Con la bendición de Dios y nuestras familias</span>
+            <h1 class="title-main">Nos Casamos</h1>
+            <h2 class="names">Oscar & Wendy</h2>
+            <p class="date">24 de marzo de 2026</p>
+            <a href="#rsvp" class="btn-primary">Confirmar Asistencia</a>
+        </div>
+    </header>
+
+    <!-- Nuestra Historia -->
+    <section class="historia section" id="historia">
+        <div class="container fade-in">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <p class="section-subtitle">Un viaje de amor y complicidad.</p>
+
+            <div class="timeline">
+                <div class="timeline-item left reveal">
+                    <div class="timeline-content">
+                        <img src="./images/timeline1.jpeg" loading="lazy" alt="Nos conocimos" class="timeline-img">
+                        <h3>Nos conocimos</h3>
+                        <p>El destino cruzó nuestros caminos de la manera más inesperada.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right reveal">
+                    <div class="timeline-content">
+                        <img src="./images/timeline2.jpeg" loading="lazy" alt="Nos enamoramos" class="timeline-img">
+                        <h3>Nos enamoramos</h3>
+                        <p>Entre risas y charlas, descubrimos que éramos el uno para el otro.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left reveal">
+                    <div class="timeline-content">
+                        <img src="./images/timeline3.jpeg" loading="lazy" alt="Nos comprometimos" class="timeline-img">
+                        <h3>¡Nos comprometimos!</h3>
+                        <p>Decidimos empezar esta hermosa aventura juntos para toda la vida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria section bg-light" id="galeria">
+        <div class="container fade-in">
+            <h2 class="section-title">Nuestros Momentos</h2>
+            <p class="section-subtitle">Un vistazo a nuestra historia de amor.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal"><img src="./images/galery1.jpeg" loading="lazy" alt="Parejas foto 1">
+                </div>
+                <div class="gallery-item reveal"><img src="./images/galery2.jpeg" loading="lazy" alt="Parejas foto 3">
+                </div>
+                <div class="gallery-item reveal"><img src="./images/galery3.jpeg" loading="lazy" alt="Parejas foto 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalles del Evento -->
+    <section class="detalles section" id="detalles">
+        <div class="container fade-in">
+            <h2 class="section-title">Detalles del Evento</h2>
+            <p class="section-subtitle">Nos encantaría compartir este día contigo.</p>
+
+            <div class="cards-grid">
+                <!-- Ceremonia -->
+                <div class="card reveal">
+                    <div class="icon">⛪</div>
+                    <h3>Ceremonia Religiosa</h3>
+                    <p class="card-time">5:00 PM</p>
+                    <p class="card-location">Iglesia (por definir)<br>Ica, Perú</p>
+                    <a href="https://maps.app.goo.gl/by1s9UoUCUS1QpWd8" class="btn-secondary" target="_blank">Ver en
+                        Google Maps</a>
+                </div>
+
+                <!-- Recepción -->
+                <div class="card reveal">
+                    <div class="icon">🎂</div>
+                    <h3>Recepción</h3>
+                    <p class="card-time">Después de la ceremonia</p>
+                    <p class="card-location">Lugar de Recepción (por definir)<br>Ica, Perú</p>
+                    <a href="https://maps.app.goo.gl/by1s9UoUCUS1QpWd8" class="btn-secondary" target="_blank">Ver en
+                        Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regalos -->
+    <section class="regalos section bg-light" id="regalos">
+        <div class="container fade-in">
+            <h2 class="section-title">Mesa de Regalos</h2>
+            <p class="section-subtitle">El mejor regalo es tu presencia, pero si deseas tener un detalle con nosotros...
+            </p>
+
+            <div class="cards-grid">
+                <!-- Tarjeta Yape -->
+                <div class="card reveal qr-card">
+                    <!--<div class="icon">📱</div>-->
+                    <h3>Yape</h3>
+                    <p class="card-time">Transferencia directa</p>
+                    <p class="card-location">A nombre de: <strong>Oscar Salcedo</strong></p>
+                    <div class="qr-container">
+                        <div class="qr-box">
+                            <img src="./images/yape.jpeg" loading="lazy" alt="QR Yape" class="qr-img">
+                            <p>Número: 975 244 210</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta Plin -->
+                <div class="card reveal qr-card">
+                    <!--<div class="icon">📱</div>-->
+                    <h3>Plin</h3>
+                    <p class="card-time">Transferencia directa</p>
+                    <p class="card-location">A nombre de: <strong>Oscar Salcedo</strong></p>
+                    <div class="qr-container">
+                        <div class="qr-box">
+                            <img src="./images/plin.jpeg" loading="lazy" alt="QR Plin" class="qr-img">
+                            <p>Número: 975 244 210</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cuenta Regresiva -->
+    <section class="countdown section" id="cuenta-regresiva">
+        <div class="countdown-bg"></div>
+        <div class="container fade-in position-relative">
+            <h2 class="section-title text-white">Faltan</h2>
+            <div class="timer" id="timer">
+                <div class="time-box">
+                    <span class="number" id="days">00</span>
+                    <span class="label">Días</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="hours">00</span>
+                    <span class="label">Horas</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="minutes">00</span>
+                    <span class="label">Mint</span>
+                </div>
+                <div class="time-box">
+                    <span class="number" id="seconds">00</span>
+                    <span class="label">Segs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp section bg-light" id="rsvp">
+        <div class="container fade-in">
+            <h2 class="section-title">Confirmar Asistencia</h2>
+            <p class="section-subtitle">Por favor, confírmanos tu presencia antes del 20 de Marzo de 2026.</p>
+
+            <form id="rsvp-form" class="rsvp-form reveal"
+                action="https://docs.google.com/forms/d/e/1FAIpQLSek4daE8wjYFkSx3_-Izd80AjMu-CmA6Un2QRPLqiP6USKRoA/formResponse"
+                method="POST">
+                <div class="form-group">
+                    <label for="name">Nombre Completo</label>
+                    <input name="entry.369119081" type="text" id="name" required placeholder="Ej. Juan Pérez">
+                </div>
+                <div class="form-group">
+                    <label for="guests">Número de Invitados</label>
+                    <input name="entry.2001712767" type="number" id="guests" min="1" max="5" required placeholder="1">
+                </div>
+                <div class="form-group">
+                    <label>¿Asistirás?</label>
+                    <div class="radio-group">
+                        <label>
+                            <input name="entry.1944220015" type="radio" value="Si" required> Sí, ahí
+                            estaré
+                        </label>
+                        <label>
+                            <input name="entry.1944220015" type="radio" value="No"> No podré asistir
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje para los novios (Opcional)</label>
+                    <textarea name="entry.132755586" id="message" rows="3"
+                        placeholder="Déjanos tus buenos deseos..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary full-width">Enviar Confirmación</button>
+            </form>
+            <div id="form-success" class="hidden message-success">
+                ¡Gracias por confirmar! Nos vemos pronto.
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="container fade-in">
+            <p class="verse">“Dos son mejor que uno…”</p>
+            <p class="reference">Eclesiastés 4:9</p>
+            <div class="separator"></div>
+            <p class="thank-you">¡Gracias por ser parte de nuestra historia!</p>
+            <h2 class="footer-names">Oscar & Wendy</h2>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
