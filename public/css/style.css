@@ -912,6 +912,8 @@ ul {
 @supports (-webkit-touch-callout: none) {
 
     .hero,
+    .dark-bg,
+    .footer,
     .countdown {
         background-attachment: scroll;
     }
