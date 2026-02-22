@@ -850,23 +850,39 @@ ul {
         gap: 1.5rem;
     }
 
+    .hero-content {
+        width: 100%;
+        padding: 1rem;
+    }
+
     .names {
-        font-size: 2.5rem;
-        margin-bottom: 0.2rem;
+        font-size: 3.3rem;
+        margin-bottom: 0.5rem;
     }
 
     .hero-inner-card {
-        padding: 1.5rem 1rem;
+        padding: 3.5rem 1.5rem;
     }
 
     .title-main {
-        font-size: 1.2rem;
-        letter-spacing: 2px;
+        font-size: 1.6rem;
+        letter-spacing: 3px;
+        margin-bottom: 0.7rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .date {
+        font-size: 1.15rem;
+        margin-bottom: 1.4rem;
     }
 
     .btn-primary {
-        padding: 0.8rem 1.2rem;
-        font-size: 0.95rem;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
     }
 
     .timeline::after {
