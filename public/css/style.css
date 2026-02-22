@@ -281,7 +281,6 @@ ul {
 /* Hero Section */
 .hero {
     height: 100vh;
-    height: 100svh;
     min-height: 600px;
     position: relative;
     display: flex;
