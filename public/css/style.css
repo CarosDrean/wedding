@@ -851,7 +851,22 @@ ul {
     }
 
     .names {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .hero-inner-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .title-main {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+
+    .btn-primary {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.95rem;
     }
 
     .timeline::after {
