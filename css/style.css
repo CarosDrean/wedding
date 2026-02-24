@@ -22,6 +22,32 @@
     --transition: all 0.4s ease;
 }
 
+/* Theme Civil Overrides */
+body.theme-civil {
+    --color-primary: #397bbc;
+    /* Vibrant Rose / Mauve */
+    --color-primary-hover: #2a5787;
+}
+
+body.theme-civil .hero-inner-card {
+    border-radius: 2px;
+}
+
+body.theme-civil .decorative-frame {
+    border-radius: 0;
+}
+
+body.theme-civil .card {
+    border-top: none;
+    border-bottom: 3px solid var(--color-primary);
+    border-radius: 8px;
+}
+
+body.theme-civil .timeline-item::after {
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+
 /* Reset & Base Styles */
 * {
     margin: 0;
