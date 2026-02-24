@@ -22,10 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* 2. Countdown Timer */
-    // Fecha de la boda: 15 de agosto de 2026 a las 17:00 (5:00 PM)
-    const weddingDate = new Date('March 24, 2026 17:00:00').getTime();
+    const timerElement = document.getElementById('timer');
+    // Fecha por defecto o leída del elemento HTML (para permitir diferentes fechas en /civil)
+    const dateString = timerElement && timerElement.dataset.date ? timerElement.dataset.date : 'March 24, 2026 17:00:00';
+    const weddingDate = new Date(dateString).getTime();
 
     const updateCountdown = () => {
+        if (!timerElement) return;
         const now = new Date().getTime();
         const distance = weddingDate - now;
 
