@@ -48,6 +48,23 @@ body.theme-civil .timeline-item::after {
     transform: rotate(45deg);
 }
 
+/* Theme Civil Background Image Overrides */
+body.theme-civil .hero {
+    background-image: url('../images/civil-hero.jpeg');
+}
+
+body.theme-civil .dark-bg {
+    background-image: url('../images/civil-event.jpeg');
+}
+
+body.theme-civil .countdown {
+    background-image: url('../images/civil-countdown.jpeg');
+}
+
+body.theme-civil .footer {
+    background-image: url('../images/civil-footer.jpeg');
+}
+
 /* Reset & Base Styles */
 * {
     margin: 0;
